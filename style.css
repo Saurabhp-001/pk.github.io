@@ -1,0 +1,378 @@
+body {
+    color: black;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    line-height: 2;
+
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+
+    background-image: url(./images/background\ pattern.svg);
+    background-color: #49fcd4;
+    background-attachment: fixed;
+    background-position: -50% 10%;
+    background-repeat: repeat-y;
+    background-size: 75% auto;
+}
+/* Universal */
+
+/* ...Brand Section... */
+#BrandSection
+{
+    display: flex;
+    height: 100vh;
+}
+#BrandHead{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+#BrandImg{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    background-image: url("./images/brand\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px;    
+    position: relative;
+    right: 0;
+    background-color: white;
+}
+#BrandSection h1{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 85px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    line-height: 1.1;
+    text-transform: none;
+    padding: 0px 172px 0px 80px;
+    margin-top: 130px;
+}
+#BrandSection p{
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 2.5;
+    padding: 0px 170px 0px 80px;
+    text-transform: uppercase;
+    margin-top: -48px;
+}
+.HeadLink{
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: black;
+}
+#BrandSection i{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 30px 170px 0px 80px;
+}
+/* ...Desc Section.... */
+#DescSection{
+    display: flex;
+}
+#DescHead{
+    width: 50%;
+    text-align: right;
+    padding-top: 120px;
+
+}
+#DescHead h2{
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-right: 175px;
+}
+#DescContent{
+    width: 50%;
+    background-color: white;
+    padding-top: 120px;
+}
+#DescContent p{
+    padding: 0px 80px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    margin-top: 4px;
+}
+#DescContent img{
+    padding: 0px 80px;
+    width: 74%;
+}
+
+/* Icon Section */
+#IconSection{
+    display: flex;
+}
+#IconHead{
+    width: 50%;
+    text-align: right;
+    padding-top: 150px;
+
+}
+#IconHead h2{
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-right: 175px;
+
+}
+#IconContent{
+    width: 50%;
+    background-color: white;
+    padding-top: 150px;
+
+}
+#IconContent p{
+    padding: 0px 80px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    margin-top: 14px;
+
+}
+#IconL{
+    display: inline-block;
+    width: 50%;
+    font-size: 18px;
+    padding-top: 15px;
+}
+#IconL p{
+    margin-top: -38px;
+    width: 50%;
+    width: 50%;
+    padding-left: 160px;
+}
+#IconL i{
+    padding-left: 100px;
+    font-size: 30px;
+}
+#IconR{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    font-size: 18px;
+    padding-top: 15px;
+}
+#IconR p{
+    margin-top: -38px;
+}
+#IconR i{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+/* Image Section */
+.ImageSection{
+    display: flex;
+}
+.ImageHead{
+    width: 50%;
+    text-align: right;
+    padding-top: 100px;
+}
+.ImageHead h2,h5{
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-right: 175px;
+}
+h5{
+    font-size: 16px;
+    margin-top: -10px;
+}
+.HeadPara{
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    line-height: 1.9;
+    margin-top: 14px;
+    margin-right: 175px;
+}
+.ImageContent{
+    width: 50%;
+    background-color: white;
+    padding-top: 100px;
+}
+.ImageContent p{
+    padding: 0px 80px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    margin-top: 14px;
+}
+.img1{
+    width: 75%;
+    height: 410px;
+    /* margin-left: 80px; */
+    margin-top: -15px;
+    padding: 0px 86px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+#img12{
+    width: 36%;
+    height: 340px;
+    padding-left: 86px;
+    padding-right: 14px;
+}
+#img13{
+    width: 36%;
+    height: 340px;
+    padding-right: 86px;
+}
+
+/* GetS Section */
+#GetSSection{
+    display: flex;
+}
+#GetSHead{
+    width: 50%;
+    text-align: right;
+    padding-top: 100px;
+}
+#GetSHead h2{
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-right: 175px;
+}
+#GetSContent{
+    width: 50%;
+    background-color: white;
+    padding-top: 100px;
+}
+#GetSContent p{
+    padding: 0px 80px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    margin-top: 14px;
+}
+#GetSContent span{
+    padding-left: 86px;   
+}
+#GetSContent button{
+    
+    font-size: 12px;
+    height: 55px;
+    letter-spacing: 1px;
+    line-height: 58px;
+    padding: 0px 63px;
+    margin-right: 17px;
+    border-radius: 6px;
+}
+#GS{
+    background-color: #49fcd4;
+    border: 0px;
+}
+#LM{
+    background-color: white;
+    border: 2px solid #e3e3e3;
+}
+
+/* Form Section */
+
+#FormSection{
+    display: flex;
+}
+#FormHead{
+    width: 50%;
+    text-align: right;
+    padding-top: 150px;
+}
+#FormHead h2{
+    letter-spacing: 3.5px;
+    line-height: 1.5;
+    margin-top: 14px;
+    margin-bottom: 90px;
+}
+#Contacts{
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    margin-top: 14px;
+    margin-right: 175px;
+}
+#FormIcons{
+    list-style-type: none;
+    width: 50%;
+    font-size: 25px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 15px;
+}
+#FormIcons i{
+    color: black;
+}
+#FormHead li{
+    padding: 0px 0px;
+    margin-left: 20px;
+}
+#FormContent{
+    width: 50%;
+    background-color: white;
+    padding-top: 150px;
+}
+#FormContent p{
+    padding: 0px 80px;
+    font-weight: 100;
+    margin-bottom: 48px;
+    margin-top: 14px;
+}
+#Name{
+    border: 2px solid #e3e3e3;
+    border-radius: 6px;
+    color: #dbdbdb;
+}
+#Email{
+    margin-left: 30px;
+    border: 2px solid #e3e3e3;
+    border-radius: 6px;
+    color: #dbdbdb;
+}
+#Message{
+    font-size: 16pxx;
+    width: 80%;
+    height: 250px;
+    margin-top: 30px;
+    border: 2px solid #e3e3e3;
+    border-radius: 6px;
+    color: #dbdbdb;
+}
+input{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+#Buttons{
+    margin-left: 80px;
+}
+#Submit{
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: #49fcd4;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+/* Footer Section */
+footer{
+    width: 50%;
+    float: right;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 200px;
+}
+footer p{
+    width: 80%;
+    padding-left: 80px;
+}
